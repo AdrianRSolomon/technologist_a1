@@ -11,13 +11,13 @@ const Navbar = () => {
           return (
               <div className="bg-[#161b3c]">
                   <header>
-                      <nav className="items-center pt-5 px-4 mx-auto sm:px-8 sm:flex sm:space-x-6">
+                      <nav className="items-center px-4 mx-auto sm:px-8 sm:flex sm:space-x-6">
                           <Link href="/">
                           <a >
                               <img
                                   src="/logo-2.png" 
-                                  width={50} 
-                                  height={50}
+                                  width={40} 
+                                  height={40}
                                   alt="a1 logo"
                               />
                           </a>
@@ -30,28 +30,30 @@ const Navbar = () => {
                                       </li>
                                   ))
                               }
-                              <li>
-                              <a href="javascript:void(0)" className="px-7 py-3 w-full bg-white text-gray-800 hover:bg-[#7af4fc] text-center rounded-md shadow-md block sm:w-auto">
-                                  Book Appointment
-                              </a>
-                              </li>
+                             
                           </ul>
                       </nav>
                   </header>
-                  <section className="mt-24 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8">
-                      <div className="space-y-4 flex-1 sm:text-center lg:text-left">
-                          <h1 className="text-white font-semibold text-2xl xl:text-2xl">
-                            Quality repairing at your Affordability at <br></br>
-                               <span className="text-[#7af4fc] text-4xl xl:text-4xl"> A1 Technologist</span>
-                          </h1>
-                          <p className="text-gray-300 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
-                              If you are looking for computer repair services, then choosing is an ideal solution for you.
-                           </p>
-                      </div>
-                      <div className="flex-1 text-center lg:mt-0 lg:ml-3">
-                          <img src="/img-2.png" className="w-full h-full"/>
-                      </div>
-                  </section>
+                  <section class="text-gray-600 body-font">
+                    <div class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
+                        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                        <img class="object-cover object-center rounded" alt="hero" src="/img-2.png"s/>
+                        </div>
+                        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                        <h1 className="text-white font-semibold text-2xl xl:text-2xl">
+                        Quality repairing at your Affordability at <br></br>
+                            <span className="text-[#7af4fc] text-4xl xl:text-4xl"> A1 Technologist</span>
+                        </h1>
+                        <p class="mb-8 leading-relaxed text-gray-50">If you are looking for computer repair services, then choosing is an ideal solution for you.</p>
+                        <div class="flex justify-center">
+                        <a href="javascript:void(0)" className="px-5 py-1 w-full bg-white text-gray-800 hover:bg-[#7af4fc] text-center rounded-md shadow-md block sm:w-auto">
+                                  Book Appointment
+                              </a>
+      </div>
+                        </div>
+                        
+                    </div>
+                    </section>
               </div>
      );
 }
