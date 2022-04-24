@@ -41,7 +41,7 @@ export default function Home() {
                     Same Day Service
                   </h6>
                   <p className="text-sm text-gray-900">
-                    When you seek assistance, we ensure that an expert technician will be at your door at the earliest possible moment
+                    When you seek assistance, we ensure that an expert technician will be at your door at the earliest possible moment.
                   </p>
                 </div>
                 <div className="bg-gray-100 p-6 rounded-lg">
@@ -161,7 +161,7 @@ export default function Home() {
                 </div>
                 <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-100">System Tune-up</h5>
                 <p className="mb-3 text-sm  text-gray-50">
-                Improve the speed and performance of your computer clean up and defragment your PC. Remove any unnecessary programs, if virus eradication is required there will be extra costs.
+                Improve the speed and performance by clean up and defragment your PC. Remove any unnecessary programs, if virus eradication is required there will be extra costs.
                 </p>
               </div>
       
@@ -177,7 +177,7 @@ export default function Home() {
                 </div>
                 <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-100">Computer Repair</h5>
                 <p className="mb-3 text-sm text-gray-50">
-                {`It makes no difference if your computer is a Dell, HP, Lenovo, Apple, or any other brand. We'll visit to your house or office and repair the problems.`}
+                {`It makes no difference if your computer is a Dell, HP, Lenovo, Apple, or any other brand. We'll visit to your home or office and repair the problems.`}
                 </p>
               </div>
             </div>
@@ -247,7 +247,7 @@ export default function Home() {
                 </div>
               </details>
               <details>
-                <summary className="py-2 outline-none text-md text-[#161b3c] font-semibold cursor-pointer focus:underline">What forms of payment does accept?</summary>
+                <summary className="py-2 outline-none text-md text-[#161b3c] font-semibold cursor-pointer focus:underline">What forms of payment do you accept?</summary>
                 <div className="px-4 pb-4 space-y-2">
                   <p>We accept the following payment methods: online or cash. We immediately prepare a tax receipt and email it to you.</p>
                 </div>
