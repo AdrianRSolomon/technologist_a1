@@ -173,6 +173,22 @@ const Navbar = () => {
                                         </div>
                                         <div className="mb-1 sm:mb-2">
                                         <label
+                                            htmlFor="contact"
+                                            className="inline-block mb-1 font-medium text-slate-900"
+                                        >
+                                            Contact
+                                        </label>
+                                        <input
+                                            placeholder="John Doe"
+                                            required
+                                            type="contact"
+                                            className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:outline-none focus:shadow-outline"
+                                            id="contact"
+                                            name="contact"
+                                        />
+                                        </div>
+                                        <div className="mb-1 sm:mb-2">
+                                        <label
                                             htmlFor="email"
                                             className="inline-block mb-1 font-medium text-slate-900"
                                         >
