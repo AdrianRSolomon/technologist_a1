@@ -71,7 +71,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="text-gray-600 body-font font-sans bg-[url('/bg-8.svg')] bg-no-repeat bg-center bg-cover" id="services">
+      <section className="text-gray-600 body-font font-sans bg-[#161b3c]" id="services">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <div>
@@ -84,93 +84,99 @@ export default function Home() {
             </h2>
           </div>
           <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="flex flex-col justify-between p-5  rounded shadow-sm bg-gray-50 hover:-translate-y-2">
+          <div className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10">
               <div>
-                <div className="flex items-center justify-center w-16 h-16 mb-8 ">
+                <div className="flex items-center justify-center w-20 h-20 rounded-full bg-indigo-50">
                 <img
                   src="/img-10.png"
+                  className="w-14 h-14"
                   alt=""
                 />
                 </div>
-                <h5 className="mb-2 font-semibold text-lg text-gray-500 leading-5">Hardware Repair and Upgrades</h5>
-                <p className="mb-3 text-sm text-gray-900 ">
+                <h5 className="mb-2 font-semibold text-lg text-gray-100 leading-5">Hardware Repair and Upgrades</h5>
+                <p className="mb-3 text-sm text-gray-50 ">
                   Our experts can assist you in getting your computer up and running again. If required, we can replace 
                   your internal components as well as give assistance for the replacement or upgrade.
                 </p>
               </div>
       
             </div>
-            <div className="flex flex-col justify-between p-5  rounded shadow-sm bg-gray-50 hover:-translate-y-2">
+            <div className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10">
               <div>
-                <div className="flex items-center justify-center w-16 h-16 mb-8 ">
+                <div className="flex items-center justify-center w-20 h-20 rounded-full bg-indigo-50">
                 <img
                   src="/img-11.png"
+                  className="w-14 h-14"
                   alt=""
                 />
                 </div>
-                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-500 ">Software Repair, Installation and Upgrade</h5>
-                <p className="mb-3 text-sm text-gray-900">
+                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-100 ">Software Repair, Installation and Upgrade</h5>
+                <p className="mb-3 text-sm text-gray-50">
                 {`We fix your computers. From simple software updates to complex data recovery, we’ve seen it all. We’ll fix it. We make complex problems simple.`}
                 </p>
               </div>      
             </div>
-            <div className="flex flex-col justify-between p-5 border rounded shadow-sm bg-gray-50 hover:-translate-y-2">
+            <div className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10">
               <div>
-                <div className="flex items-center justify-center w-16 h-16 mb-8 ">
+                <div className="flex items-center justify-center w-20 h-20 rounded-full bg-indigo-50">
                 <img
                   src="/img-13.png"
+                  className="w-14 h-14"
                   alt=""
                 />
                 </div>
-                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-500">Virus Removal</h5>
-                <p className="mb-3 text-sm text-gray-900">
+                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-100">Virus Removal</h5>
+                <p className="mb-3 text-sm text-gray-50">
                   We can assist you in recovering from viruses, malware, spyware, ransomware, and other 
                   dangerous programs. We can also provide you advice on how to keep your papers protected from these dangers.
                 </p>
               </div>
       
             </div>
-            <div className="flex flex-col justify-between p-5 border rounded shadow-sm bg-gray-50 hover:-translate-y-2">
+            <div className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10">
               <div>
-                <div className="flex items-center justify-center w-16 h-16 mb-8 ">
+                <div className="flex items-center justify-center w-20 h-20 rounded-full bg-indigo-50">
                 <img
                   src="/img-12.png"
+                  className="w-14 h-14"
                   alt=""
                 />
                 </div>
-                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-500">Data Recovery</h5>
-                <p className="mb-3 text-sm text-gray-900">
+                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-100">Data Recovery</h5>
+                <p className="mb-3 text-sm text-gray-50">
                 Concerned that all of your files and data will not be restored from your devices? 
                 Our experts will do everything possible to recover files that have been deleted from any device.
                 </p>
               </div>
       
             </div>
-            <div className="flex flex-col justify-between p-5 border rounded shadow-sm bg-gray-50 hover:-translate-y-2">
+            <div className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10">
               <div>
-                <div className="flex items-center justify-center w-16 h-16 mb-8 ">
+                <div className="flex items-center justify-center w-20 h-20 rounded-full bg-indigo-50">
                 <img
                   src="/img-14.png"
+                  className="w-14 h-14"
                   alt=""
                 />
                 </div>
-                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-500">System Tune-up</h5>
-                <p className="mb-3 text-sm  text-gray-900">
+                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-100">System Tune-up</h5>
+                <p className="mb-3 text-sm  text-gray-50">
                 Improve the speed and performance of your computer clean up and defragment your PC. Remove any unnecessary programs, if virus eradication is required there will be extra costs.
                 </p>
               </div>
       
             </div>
-            <div className="flex flex-col justify-between p-5 border rounded shadow-sm bg-gray-50 hover:-translate-y-2">
+            <div className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10">
               <div>
-                <div className="flex items-center justify-center w-16 h-16 mb-8 ">
+                <div className="flex items-center justify-center w-20 h-20 rounded-full bg-indigo-50">
                 <img
                   src="/img-15.png"
+                  className="w-14 h-14"
                   alt=""
                 />
                 </div>
-                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-500">Computer Repair</h5>
-                <p className="mb-3 text-sm text-gray-900">
+                <h5 className="mb-2 font-semibold leading-5 text-lg text-gray-100">Computer Repair</h5>
+                <p className="mb-3 text-sm text-gray-50">
                 {`It makes no difference if your computer is a Dell, HP, Lenovo, Apple, or any other brand. We'll visit to your house or office and repair the problems.`}
                 </p>
               </div>
@@ -179,7 +185,7 @@ export default function Home() {
         </div>
         </section>
 
-        <section className="pt-24 bg-[url('/bg-4.svg')] bg-no-repeat bg-center bg-cover " id="plans">
+        <section className="pt-24 bg-[url('/bg-3.svg')] bg-no-repeat bg-center bg-cover " id="plans">
         <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <div>

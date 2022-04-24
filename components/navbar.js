@@ -1,7 +1,14 @@
 import Link from "next/link";
+import { useForm, ValidationError } from "@formspree/react";
 
 const Navbar = () => {
 
+    const [state, handleSubmit] = useForm("xyylnnee");
+
+    if (state.succeeded) {
+      return <p>Thanks for your submission!</p>;
+    }
+  
         const navigation = [
             { title: "Services", path: "#services" },
             { title: "Plans", path: "#plans" },
@@ -75,7 +82,7 @@ const Navbar = () => {
                                     />
                                     </svg>
                                     <div className="relative bg-gray-50 rounded shadow-2xl p-7 sm:p-10">
-                                    <form>
+                                    <form onSubmit={handleSubmit}>
                                         <div className="mb-1 sm:mb-2">
                                         <label
                                             htmlFor="name"
@@ -86,7 +93,7 @@ const Navbar = () => {
                                         <input
                                             placeholder="John Doe"
                                             required
-                                            type="text"
+                                            type="name"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                                             id="name"
                                             name="name"
@@ -107,19 +114,22 @@ const Navbar = () => {
                                             id="email"
                                             name="email"
                                         />
+                                        <ValidationError prefix="Email" field="email" errors={state.errors}/>
                                         </div>
                                         <div className="relative mb-4">
                                         <label htmlFor="message" className="leading-7 text-sm text-slate-900 font-medium">Message</label>
                                         <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300  focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                        <ValidationError prefix="Message" field="message" errors={state.errors} />
                                         </div>
                                         <div className="mt-4 mb-2 sm:mb-4">
                                         <button
-                                            type="submit"
-                                            className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-gray-900 transition duration-200 rounded shadow-md bg-teal-400 hover:bg-white focus:shadow-outline focus:outline-none"
+                                           type="submit" disabled={state.submitting}
+                                            className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-gray-900 transition duration-200 rounded shadow-md bg-[#7af4fc] hover:bg-white focus:shadow-outline focus:outline-none"
                                         >
                                             book now
                                         </button>
                                         </div>
+                                        <ValidationError errors={state.errors} />
                                     </form>
                                     </div>
                                 </div>
