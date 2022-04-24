@@ -17,11 +17,9 @@ const Footer = () => {
                 <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 20222 A1 Technologist —
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-               <Link href="callto:8683892499">
                <a className="ml-3 text-gray-500">
-                   Contact: <span className="text-xl">1(868)389-2499</span>
+                   Contact: 1(868)389-2499
                 </a>
-               </Link>
                <Link href="https://www.facebook.com/A1-Technologist-107538695260080">
                 <a className="ml-3 text-gray-500 cursor-pointer">
                     <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
