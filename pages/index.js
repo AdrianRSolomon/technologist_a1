@@ -203,7 +203,7 @@ export default function Home() {
           </div>
           </div>
           <div className="container mx-auto flex flex-col items-center gap-8 justify-center max-w-lg p-4 lg:max-w-full sm:p-10 lg:flex-row">
-          <div className="flex flex-col  justify-center flex-1 p-4 pb-8 text-left rounded-md sm:p-8 lg:p-16 bg-gray-100 bg-opacity-50">
+          <div className="flex flex-col  justify-center flex-1 p-4 pb-8 text-left rounded-md sm:p-8 lg:p-16 bg-gray-100 bg-opacity-70">
               <span className="text-2xl text-center text-[#161b3c] mb-5">AT HOME OR OFFICE</span>
               <p className="text-md text-[#161b3c] font-semibold "><i className="fa-solid fa-circle-check px-3 text-[#161b3c]"></i>We come to your Home or Office</p>
               <p className="text-md text-[#161b3c] font-semibold "><i className="fa-solid fa-circle-check px-3 text-[#161b3c]"></i>Same day Service</p>
@@ -215,7 +215,7 @@ export default function Home() {
                 <a className="text-gray-700  inline-flex font-semibold items-center">Starts at <span className="ml-2 font-bold text-3xl">$275</span></a>
               </div>
             </div>
-            <div className="flex flex-col  justify-center flex-1 p-4 pb-8 text-left rounded-md sm:p-8 lg:p-16 bg-gray-100 bg-opacity-50">
+            <div className="flex flex-col  justify-center flex-1 p-4 pb-8 text-left rounded-md sm:p-8 lg:p-16 bg-gray-100 bg-opacity-70">
               <span className="text-2xl text-center text-[#161b3c] mb-5">REMOTE SUPPORT</span>
               <p className="text-md text-[#161b3c] font-semibold "><i className="fa-solid fa-circle-check px-3 text-[#161b3c] "></i>Repairs via the Internet</p>
               <p className="text-md text-[#161b3c] font-semibold "><i className="fa-solid fa-circle-check px-3 text-[#161b3c]"></i>100% Private &Secure Connection</p>
