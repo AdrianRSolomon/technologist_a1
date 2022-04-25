@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,10 +15,10 @@ export default function Home() {
               <div className="grid gap-12 row-gap-5 md:grid-cols-1">
                 <div className="relative">
                   <div className="relative bg-gray-100 p-6 rounded-lg">
-                    <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full ">
+                    <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full">
                         <img
                       src="/img-7.png"
-                      alt=""
+                      alt="Guarantees"
                     />
                     </div>
                     <h6 className="mb-2 font-semibold leading-5">
@@ -60,10 +60,13 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <img
-                  className="object-cover w-full h-full"
+                <Image
+                  className="object-cover"
                   src="/img-3.png"
                   alt=""
+                  width={500}
+                  height={500}
+                  quality={100}
                 />
               </div>
             </div>
@@ -185,7 +188,7 @@ export default function Home() {
         </div>
         </section>
 
-        <section className="pt-24 bg-[url('/bg-3.svg')] bg-no-repeat bg-center bg-cover " id="plans">
+        <section className="pt-24 bg-[url('/bg-1.svg')] bg-no-repeat bg-center bg-cover " id="plans">
         <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <div>
@@ -196,7 +199,7 @@ export default function Home() {
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#161b3c] sm:text-4xl md:mx-auto">
                 <span className="relative">Our Plans</span>
             </h2>
-            <p className="mb-3 text-lg font-semibold text-center text-gray-900">
+            <p className="mb-3 text-lg font-medium text-center text-gray-900">
             {` Service at your door, doesn't cost more.
                Personal in-home services at 1/2 the price and without the wait.`}
             </p>

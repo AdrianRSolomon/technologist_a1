@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useForm, ValidationError } from "@formspree/react";
+import Image from "next/image";
 
 const Navbar = () => {
     const navigation = [
@@ -122,10 +123,13 @@ const Navbar = () => {
                                 Book your next service Appointment with <span className="text-[#7af4fc]">A1 Technologist</span>
                                 </h2>
                                 <div>
-                                <img
-                                    className="object-cover w-full h-full"
+                                <Image
+                                    className="object-cover"
                                     src="/img-1.png"
-                                    alt=""
+                                    alt="header"
+                                    width={400}
+                                    height={400}
+                                    quality={100}
                                 />
                                 </div>
                                 </div>
