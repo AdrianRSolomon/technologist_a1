@@ -196,7 +196,7 @@ export default function Home() {
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#161b3c] sm:text-4xl md:mx-auto">
                 <span className="relative">Our Plans</span>
             </h2>
-            <p className="mb-3 text-lg text-center text-gray-900">
+            <p className="mb-3 text-lg font-semibold text-center text-gray-900">
             {` Service at your door, doesn't cost more.
                Personal in-home services at 1/2 the price and without the wait.`}
             </p>
